@@ -10,17 +10,19 @@
 }
 
 .header {
-  border: dashed 1px red;
+  display: flex;
+  justify-content: space-between;
 }
 
-.nav,.nav__menu {
+.logo,.nav__menu {
   border: dashed 1px red;
   display: inline-block;
 }
 
-.nav__item {
+.logo {
   font-family: 'PT Serif', serif;
   font-weight: 700;
+  width: 63%;
 }
 
 .nav__menu {
