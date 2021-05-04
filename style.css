@@ -1,3 +1,23 @@
+.body {
+  border: dashed 1px red;
+  margin: 0;
+}
+
+.wrapper {
+   width: 80%;
+   margin: auto;
+   border: dashed 1px red;
+}
+
+.header {
+  border: dashed 1px red;
+}
+
+.nav,.nav__menu {
+  border: dashed 1px red;
+  display: inline-block;
+}
+
 .nav__item {
   font-family: 'PT Serif', serif;
   font-weight: 700;
