@@ -1,19 +1,24 @@
 .nav__item {
   font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
 .nav__menu {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
-h1 {
+.main__title {
   font-family: 'PT Serif', serif;
+  font-weight: 700;
 }
 
-h3 {
+.main__subtitle {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 .input_color_blue {
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
