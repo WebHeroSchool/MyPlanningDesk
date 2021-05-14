@@ -1,12 +1,10 @@
 .body {
-  border: dashed 1px red;
   margin: 0;
 }
 
 .wrapper {
    width: 80%;
    margin: auto;
-   border: dashed 1px red;
 }
 
 .header {
@@ -15,7 +13,6 @@
 }
 
 .logo,.menu {
-  border: dashed 1px red;
   display: inline-block;
 }
 
@@ -35,7 +32,6 @@
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
 .menu__item:last-child {
