@@ -1,12 +1,10 @@
 .body {
-  border: dashed 1px red;
   margin: 0;
 }
 
 .wrapper {
    width: 80%;
    margin: auto;
-   border: dashed 1px red;
 }
 
 .header {
@@ -15,14 +13,13 @@
 }
 
 .logo,.menu {
-  border: dashed 1px red;
   display: inline-block;
 }
 
 .logo {
   font-family: 'PT Serif', serif;
   font-weight: 700;
-  width: 63%;
+  width: 52%;
   padding: 40px 0;
 }
 
@@ -35,10 +32,9 @@
 
 .menu__item {
   padding: 0 13px;
-  border: dashed 1px red;
 }
 
-.menu__item:last-child {
+.menu__item: last-child {
   padding-right: 0;
 }
 
