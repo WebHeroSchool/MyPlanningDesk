@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 
-.logo,.nav__menu {
+.logo,.menu {
   border: dashed 1px red;
   display: inline-block;
 }
@@ -23,11 +23,23 @@
   font-family: 'PT Serif', serif;
   font-weight: 700;
   width: 63%;
+  padding: 40px 0;
 }
 
-.nav__menu {
+.menu {
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.menu__item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+
+.menu__item:last-child {
+  padding-right: 0;
 }
 
 .main__title {
