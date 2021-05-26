@@ -53,6 +53,7 @@
 
 .menu__item {
   padding: 0 13px;
+  font: 500 18px/21px  ;
 }
 
 .menu__item: last-child {
