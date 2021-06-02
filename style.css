@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-   width: 78%;
+   width: 80%;
    margin: auto;
 }
 
@@ -105,9 +105,9 @@
 }
 
 .main {
-  background:
-  url(img/mainImg.svg) top right no-repeat , 
-  url(img/3circles.svg) bottom 10px right 43vw no-repeat;
+  padding: 0px 63% 310px 0;
+  background: top right no-repeat url(img/mainImg.svg), url(img/3circles.svg) bottom 24px right 41.5vw no-repeat;
+  width: 32vw;
 }
 
 .main__title {
