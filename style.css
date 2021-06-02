@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 203px;
+  width: max-content;
 }
 
 .logo,.menu {
@@ -106,6 +107,7 @@
 .main {
   padding: 0 63% 310px 0;
   background: top right no-repeat url('img/mainImg.svg');
+  width: 32vw;
 }
 
 .main__title {
@@ -124,13 +126,14 @@
 
 .main__button {
   display: inline-block;
-  font: 500 19px/12px  'Roboto', Arial, Helvetica, sans-serif; 
-  padding: 18px 20px;
+  font: 500 18px/7px  'Roboto', Arial, Helvetica, sans-serif; 
+  padding: 18px 19px;
   background: #0056EC;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.4s;
+  height: 9px;
 }
 
 .main__button:hover {
