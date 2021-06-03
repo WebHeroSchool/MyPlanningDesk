@@ -120,20 +120,22 @@
 }
 
 .main__subtitle {
-  margin: 0 21% 50px 0;
-  font: 500 21px/26px 'Roboto', Arial, Helvetica, sans-serif;
+  margin: 0 21% 51px 0;
+  font: 500 22px/26px 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 19px/6px  'Roboto', Arial, Helvetica, sans-serif; 
-  padding: 20px 23px;
+  font: 500 18px/0px  'Roboto', Arial, Helvetica, sans-serif; 
+  padding: 19px 21px;
   background: #0056EC;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.4s;
-  height: 9px;
+  height: 7px;
+  margin: 0px 7px;
+  width: 11.7vw;
 }
 
 .main__button:hover {
