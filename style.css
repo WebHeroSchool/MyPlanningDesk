@@ -20,18 +20,18 @@
 
 .logo {
   position: relative;
-  padding: 44px 50vw;
-  padding-left: 49px;
+  padding: 43px 50vw;
+  padding-left: 50px;
   font: 700 23px/30px 'PT Serif', Arial, Helvetica, sans-serif;
 }
 
 .logo__circle {
   position: absolute;
-  left: 0;
-  top: 50%;
+  left: 2px;
+  top: 47%;
   transform: translateY(-50%);
-  width: 33px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   opacity: 0.7;
 }
@@ -41,8 +41,8 @@
 }
 
 .logo__circle_color_blue {
-  left: 8px;
-  top: 56%;
+  left: 10px;
+  top: 52%;
   background: #C8DBFB;
 }
 
