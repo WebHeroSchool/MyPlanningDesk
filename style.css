@@ -10,7 +10,7 @@
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 203px;
+  margin-bottom: 126px;
   width: max-content;
 }
 
@@ -54,7 +54,7 @@
 .menu__item {
   position: relative;
   margin-right: 27px;
-  font: 500 18px/21px 'Roboto', Arial, Helvetica, sans-serif;
+  font: 500 17.8px/23px 'Roboto', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity 0.4s;
@@ -105,14 +105,14 @@
 }
 
 .main {
-  padding: 0px 63% 310px 0;
-  background: top right no-repeat url(img/mainImg.svg), url(img/3circles.svg) bottom 27px right 39vw no-repeat;
+  padding: 75px 50.2vw 310px 0;
+  background: top right no-repeat url(img/mainImg.svg), url(img/3circles.svg) bottom 30px right 38.9vw no-repeat;
   width: 29.5vw;
 }
 
 .main__title {
-  margin: 0 0 34px 0;
-  font: 700 65.5px/86px 'PT Serif', Arial, Helvetica, sans-serif;
+  margin: 0 0 37px 0;
+  font: 700 66.5px/87px 'PT Serif', Arial, Helvetica, sans-serif;
 }
 
 .main__title-text_highlight {
@@ -120,22 +120,22 @@
 }
 
 .main__subtitle {
-  margin: 0 21% 51px 0;
+  margin: 0 21% 43px 0;
   font: 500 22px/26px 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  font: 500 18px/0px  'Roboto', Arial, Helvetica, sans-serif; 
-  padding: 19px 21px;
+  font: 500 18px/23px  'Roboto', Arial, Helvetica, sans-serif; 
+  padding: 3% 19px;
   background: #0056EC;
   color: #fff;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity 0.4s;
-  height: 7px;
-  margin: 0px 7px;
-  width: 11.7vw;
+  height: 21px;
+  margin: 0.5px 5px;
+  width: 41%;
 }
 
 .main__button:hover {
