@@ -7,6 +7,12 @@
   margin: auto;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -289,3 +295,20 @@ a:hover {
 .main__bottom {
   font: 500 14px/16px 'Roboto', Arial, Helvetica, sans-serif;
 }
+
+ @media (max-width: 1200px) {
+   .container {
+      max-width: 970px;
+   }
+ }
+ @media (max-width:992px) {
+  .container {
+    max-width: 750px;
+  }
+ }
+ @media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+ }
+
