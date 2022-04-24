@@ -8,9 +8,7 @@
 }
 
 .container {
-  max-width: 1200px;
-  margin: 0px auto;
-  padding: 0px 15px;
+  
 }
 
 .header {
@@ -51,11 +49,6 @@
   left: 10px;
   top: 52%;
   background: #C8DBFB;
-}
-
-.menu {
-  display: flex;
-  align-items: center;
 }
 
 .menu__item {
@@ -267,12 +260,6 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-* {
-  font-weight: lighter;
-  margin: 0;
-  padding: 0;
 }
 
 .main {
